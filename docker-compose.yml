@@ -1,6 +1,7 @@
 services:
   mysql_db:
     image: mariadb:lts-ubi10
+    container_name: escuelamike
     environment:
       MYSQL_ROOT_PASSWORD: SuperSecret2024!
       MYSQL_DATABASE: empresa_db
