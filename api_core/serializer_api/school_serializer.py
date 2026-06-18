@@ -1,4 +1,4 @@
-from adminmike.models import School, Course, Student
+from adminmike.models import School
 from rest_framework import serializers
 
 class SchoolSerializer(serializers.ModelSerializer):
